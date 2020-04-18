@@ -20,6 +20,7 @@
 
 @media (min-width: 1024px) {
   .album-card {
-    width: 24%;
+    max-width: 24%;
+    flex-basis: 25%;
   } 
 }
