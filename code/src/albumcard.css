@@ -1,8 +1,11 @@
 
 .album-card {
+  box-sizing: border-box;
   width: 100%;
   height: auto;
   margin-bottom: 50px;
+  padding-right: 10px;
+
 }
 
 .album-card img {
@@ -14,13 +17,13 @@
 
 @media (min-width: 669px) {
   .album-card {
-    width: 48%;
+    width: 50%;
   }
 }
 
 @media (min-width: 1024px) {
   .album-card {
-    max-width: 24%;
-    flex-basis: 25%;
+    flex-grow: 0;
+    width: 25%;
   } 
 }
