@@ -3,12 +3,5 @@
   flex-wrap: wrap;
   /* column-gap: 10px; no supported widely yet */
   margin-right: -10px;
-  /* justify-content: space-between; */
 }
 
-/* .albums-container::after {
-  content: "";
-  flex-grow: 1;
-  max-width: 49.5%;
-  justify-self: self-end;
-} */
