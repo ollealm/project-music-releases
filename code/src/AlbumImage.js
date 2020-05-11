@@ -1,8 +1,6 @@
 import React from 'react'
 import './albumimage.css'
-import { Heart } from 'Icons'
-import { Play } from 'Icons'
-import { Dots } from 'Icons'
+import { Heart, Play, Dots } from 'Icons'
 
 export const AlbumImage = (props) => {
   const { images } = props
