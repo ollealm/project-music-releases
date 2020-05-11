@@ -5,7 +5,6 @@ import './albumscontainer.css'
 export const AlbumsContainer = (props) => {
 
   const { albums } = props
-  // const albums = props.albums
 
   return (
     <article className="albums-container">
